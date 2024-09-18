@@ -94,7 +94,7 @@ MYSQL_HOST="";
 HELP_TARGET="install.sh";
 
 JWT_ENABLED="";
-JWT_SECRET="";
+JWT_SECRET="supersecretJWT";
 CORE_MACHINEKEY="";
 
 SKIP_HARDWARE_CHECK="false";
