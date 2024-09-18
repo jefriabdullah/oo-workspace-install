@@ -108,7 +108,7 @@ if [ "$DOCKER" == "true" ]; then
 	if [ "${LOCAL_SCRIPTS}" == "true" ]; then
 		bash install.sh ${PARAMETERS}
 	else
-		curl -s -O http://download.onlyoffice.com/install/install.sh
+		#curl -s -O http://download.onlyoffice.com/install/install.sh
 		bash install.sh ${PARAMETERS}
 		rm install.sh
 	fi
