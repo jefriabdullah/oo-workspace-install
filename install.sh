@@ -2221,7 +2221,7 @@ check_domain () {
 		RESULT=true;
 	elif [[ -z ${RESULT} ]]; then
 		echo "$MAIL_DOMAIN_NAME is not linked to the $IP address. Please check your A-record."
-		exit 0;
+		#exit 1;
 	fi
 }
 
