@@ -29,7 +29,7 @@ ELASTICSEARCH_CONTAINER_NAME="onlyoffice-elasticsearch";
 MYSQL_CONTAINER_NAME="onlyoffice-mysql-server";
 
 COMMUNITY_IMAGE_NAME="onlyoffice/communityserver";
-DOCUMENT_IMAGE_NAME="onlyoffice/documentserver-ee";
+DOCUMENT_IMAGE_NAME="registry.serverdemo.net/documentserver";
 MAIL_IMAGE_NAME="onlyoffice/mailserver";
 CONTROLPANEL_IMAGE_NAME="onlyoffice/controlpanel";
 ELASTICSEARCH_IMAGE_NAME="onlyoffice/elasticsearch";
@@ -2166,7 +2166,7 @@ set_installation_type_data () {
 
 set_opensource_data () {
 	COMMUNITY_IMAGE_NAME="onlyoffice/communityserver";
-	DOCUMENT_IMAGE_NAME="onlyoffice/documentserver";
+	DOCUMENT_IMAGE_NAME="registry.serverdemo.net/documentserver";
 	MAIL_IMAGE_NAME="onlyoffice/mailserver";
 	CONTROLPANEL_IMAGE_NAME="onlyoffice/controlpanel";
 
